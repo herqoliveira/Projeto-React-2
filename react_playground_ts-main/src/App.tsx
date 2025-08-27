@@ -1,14 +1,13 @@
 import './App.css'
-import Home from './pages/home/Home'
+import Contador from './pages/contador/Contador'
+import Tarefa from './pages/tarefa/Tarefa'
 
 function App() {
 
   return (
     <>
-        <Home
-        titulo='Componente Home'
-        texto='Esse é o componente home, que recebeu props'/>
-        
+        <Contador />
+        <Tarefa />
     </>
   )
 }
